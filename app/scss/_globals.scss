@@ -1,0 +1,38 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    line-height: 1.3;   
+}
+
+.background {
+    background-color: $darkCyan;
+}
+
+.bubbles {
+    display: flex;
+}
+
+.top-bubble {
+    position: absolute;
+    right: 167px;
+    bottom: 372px;
+}
+
+.bottom-bubble {
+    position: absolute;
+    left: 167px;
+    top: 372px;
+}
